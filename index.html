@@ -14,20 +14,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap" rel="stylesheet">
 
 
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/0668c21736.js" crossorigin="anonymous"></script>
+
     <!-- Custom css -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Zacky Zalfa</title>
   </head>
-  <body class="bg-secondary">
+  <body class="bg-secondary" id="top">
     
 
+    <a class="btn btn-dark btn-to-top" href="#top">
+        <i class="far fa-arrow-alt-circle-up"></i>
+    </a>
 
 
     <!-- Content -->
     <div class="row p-0 m-0 h-100">
         <div class="col-12 col-lg-6 p-0 m-0 h-100">
-            <div class="bg-dark w-50 h-100 screen-left pt-5">
+            <div class="bg-dark h-100 screen-left py-5">
                 
                 <div class="my-image rounded-circle m-auto">
                     <img src="me.jpg" class="w-100">
@@ -48,8 +54,17 @@
             <div class="bg-secondary w-100 h-100 screen-right pt-5">
                 <h3 class="text-center detail-me">Detail of Me</h3>
 
-                <div class="px-5">
-                    <div id="projects"></div>
+                <div class="px-5 mb-5">
+                    <div id="bio" class="text-light mt-4 mb-5 text-center"></div>
+
+                    <h5 class="mb-1 text-dark">My Projects</h5>
+                    <div id="projects" class="row mb-5"></div>
+
+                    <h5 class="mb-1 text-dark">My Biodata</h5>
+                    <div id="biodata" class="row mt-4"></div>
+
+                    <h5 class="mb-1 mt-3 text-dark">My Sosial Media</h5>
+                    <div id="contacts" class="row my-4"></div>
                 </div>
             </div>
         </div>
@@ -64,6 +79,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="script.js"></script>
     
   </body>
 </html>
