@@ -1,0 +1,35 @@
+* {
+	font-family: 'Nunito', sans-serif;
+}
+
+.screen-left {
+	height: 500px!important;
+}
+
+.my-image {
+	width: 200px;
+	overflow: hidden;
+	height: 200px;
+}
+
+.my-image img {
+	transform: translateY(-50px);
+}
+
+.my-bio {
+	font-size: 15px;
+}
+
+@media(min-width: 768px){
+	.screen-left {
+		height: 100vh!important;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
+	.screen-right {
+		height: 1000px!important;
+		overflow-y: auto;
+	}
+}
