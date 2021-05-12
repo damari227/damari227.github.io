@@ -41,7 +41,7 @@ $(() => {
 
 	$.each(projects, (i, data) => {
 		$('#projects').append(`
-			<div class="col-6 p-3">
+			<div class="col-12 col-lg-6 p-3">
 			<div class="bg-white shadow rounded-lg p-2 d-flex">
 			<div class="project-img">
 			<img src="${data.img}" class="w-100">
