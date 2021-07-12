@@ -5,7 +5,7 @@ $(() => {
 	const projects = [{
 		title: 'BayarGampang',
 		img: 'bayargampang.png',
-		link: 'https://bayargampang.com'
+		link: 'https://dev.bayargampang.com'
 	},{
 		title: 'DodoTracking',
 		img: 'dodotracking.png',
