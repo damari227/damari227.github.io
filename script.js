@@ -3,6 +3,10 @@ $(() => {
 	const bio = '<p>Saya adalah seorang programmer web developer, berasal dari Kabupaten Tangerang. saya lahir pada tahun 2006, dan tahun ini saya ber umur 15 tahun (2021), ya saya masih di bawah umur :D.</p><p>tetapi dengan umur saya yang terbilang masih sangat muda, saya sudah memiliki ambisi untuk merubah gaya hidup manusia terutama di indonesia, apakah itu? ini masih saya rahasiakan hehehe :v</p>';
 
 	const projects = [{
+		title: 'Chat App',
+		img: 'https://chat.zayzay.site/favicon.ico',
+		link: 'https://chat.zayzay.site'
+	},{
 		title: 'BayarGampang',
 		img: 'bayargampang.png',
 		link: 'https://dev.bayargampang.com'
