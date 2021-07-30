@@ -9,7 +9,7 @@ $(() => {
 	},{
 		title: 'BayarGampang',
 		img: 'bayargampang.png',
-		link: 'https://dev.bayargampang.com'
+		link: 'https://bayargampang.com'
 	},{
 		title: 'DodoTracking',
 		img: 'dodotracking.png',
